@@ -1,0 +1,163 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #fff; /* Mengubah seluruh tulisan menjadi putih */
+}
+
+header {
+    padding: 20px;
+    background: rgba(60, 62, 63, 0.8);
+    color: #fff;
+    background-image: url('blck.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.rating span {
+    color: #ffdd00; /* Memberikan warna pada rating */
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #034c22;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    transform: translateY(-5px);
+    background-color: #d35400;
+}
+
+.operational-hours, .location {
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.map-container {
+    margin: 20px 0;
+}
+
+.map-container iframe {
+    background: rgba(60, 62, 63, 0.8);
+    border: 1px solid #dddddd;
+    width: 50%;
+    height: 300px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.products {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#products h2 {
+    background-color: #054620;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background: rgba(60, 62, 63, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #333; /* Warna tulisan tetap kontras di dalam produk */
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #fff; /* Menjaga kontras */
+}
+
+.product-item p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #db0808; /* Menjaga kontras */
+}
+
+.product-item .rating span {
+    color: #ffdd00; /* Memberikan warna pada rating di menu */
+}
+
+.product-item button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #054620;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-item button:hover {
+    background-color: #d35400; /* Warna ketika hover tombol */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative; /* Mengubah posisi footer */
+    bottom: auto; /* Menghindari footer menutupi konten */
+    width: 100%;
+}
